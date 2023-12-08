@@ -59,10 +59,7 @@ function circles1(){
         d += growAmount;
     }
 
-   // if (d >= 1200){
-
-  // d = 0;
-  //}
+ 
 
     if (d < 0){
 
@@ -83,10 +80,7 @@ function circles2(){
         d += growAmount;
     }
 
-  //  if (d >= 1300){
-
-   //     d = 0;
-   // }
+  
     if (d < 100){
 
         noFill();
@@ -105,10 +99,7 @@ function circles3(){
         d += growAmount
     }
 
-   // if (d >= 1400){
-
-   //     d = 0;
-  //  }
+   
     if (d < 200){
 
         noFill();
@@ -127,10 +118,7 @@ function circles4(){
         d += growAmount;
     }
 
-   // if (d >= 1500){
-
-  //      d = 0;
-   // }
+  
     if (d < 300){
 
         noFill();
@@ -149,10 +137,7 @@ function circles5(){
         d += growAmount;
     }
 
-   // if (d >= 1600){
-
-  //      d = 0;
-  //  }
+   
     if (d < 400){
 
         noFill();
@@ -171,10 +156,7 @@ function circles6(){
         d += growAmount;
     }
 
-   // if (d >= 1700){
-
-   //     d = 0;
-  //  }
+   
     if (d < 500){
 
         noFill();
@@ -193,10 +175,7 @@ function circles7(){
         d += growAmount;
     }
 
-   // if (d >= 1800){
-
-   //     d = 0;
-  //  }
+  
     if (d < 600){
 
         noFill();
@@ -215,10 +194,7 @@ function circles8(){
         d += growAmount;
     }
 
-   // if (d >= 1900){
-
-   //     d = 0;
-   // }
+  
     if (d < 700){
 
         noFill();
@@ -237,10 +213,7 @@ function circles9(){
         d += growAmount;
     }
 
-   // if (d >= 2000){
-
-   //     d = 0;
-   // }
+   
     if (d < 800){
 
         noFill();
@@ -259,10 +232,7 @@ function circles10(){
         d += growAmount;
     }
 
-    //if (d >= 2100){
-
-   //    d = 0;
-   //}
+  
     if (d < 900){
 
         noFill();
