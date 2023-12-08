@@ -1,6 +1,13 @@
+let mySound, myRate; 
+
 let d = 0;
 let growAmount = 0.8;
 let grow = true;
+
+function preload() {
+    mySound = loadSound('pad.wav')
+    
+  }
 
 function setup() {
     var canvas = createCanvas(800, 800);
@@ -8,6 +15,9 @@ function setup() {
     colorMode(RGB)
     x = width/2;
     y = height/2;
+    myRate = 1
+  mySound.play();
+  mySound.loop
 
 }
 
@@ -17,6 +27,7 @@ function draw() {
     strokeWeight(10);
     fill(46, 255, 46);
 
+    myRate = map(d, 0, width, -2, 2)
     
     spiral()
 
@@ -242,7 +253,7 @@ function circles10(){
 
 function circles11(){
     fill(30)
-    circle(x, y, d - 1000);
+    circle(x, y, d - 800);
 
     if(d < 0){
         grow = true;
